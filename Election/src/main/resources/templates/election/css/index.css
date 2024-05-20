@@ -1,0 +1,99 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Définition des styles pour le corps de la page */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styles pour l'en-tête (header) */
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+}
+
+#ham-menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#nav-bar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar li {
+    margin-right: 10px;
+}
+
+.btnCon {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnCon:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+/* Styles pour la bannière */
+.banner {
+    background-image: url('votre-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner .content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000; 
+}
+
+.btnRejoignez {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnRejoignez:hover {
+    background-color: #0056b3;
+}

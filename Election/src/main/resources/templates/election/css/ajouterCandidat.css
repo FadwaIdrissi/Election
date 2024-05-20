@@ -1,0 +1,74 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Style pour les images des candidats */
+td img {
+    width: 100px; /* Ajustez la taille de l'image selon vos besoins */
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Centrer l'image horizontalement */
+}

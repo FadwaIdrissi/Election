@@ -1,0 +1,108 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Définition des styles pour le corps de la page */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styles pour l'en-tête (header) */
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+}
+
+#ham-menu {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#nav-bar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar li {
+    margin-right: 10px;
+}
+
+.btnCon {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnCon:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+/* Styles pour le formulaire de connexion */
+.login-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btnLogin {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnLogin:hover {
+    background-color: #0056b3;
+}

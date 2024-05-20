@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier un électeur</title>
+    <link rel="stylesheet" href="css/modifierElecteur.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="logo">Election</a>
+        </nav>
+    </header>
+    <h1>Modifier un électeur</h1>
+    <main>
+        <form action="modifier_electeur.php" method="POST">
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" value="Smith">
+            </div>
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" value="John">
+            </div>
+            <div class="form-group">
+                <label for="cin">CIN :</label>
+                <input type="text" id="cin" name="cin" value="123456">
+            </div>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" value="john@example.com">
+            </div>
+            <button type="submit">Enregistrer les modifications</button>
+        </form>
+    </main>
+</body>
+</html>

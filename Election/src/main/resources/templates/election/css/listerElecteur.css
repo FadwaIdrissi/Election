@@ -1,0 +1,90 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Styles pour les boutons Modifier et Supprimer */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style pour le bouton Modifier */
+button.modifier {
+    background-color: #ff0000; 
+    color: #fff;
+}
+
+/* Style pour le bouton Supprimer */
+button.supprimer {
+    background-color: #0000ff; 
+    color: #fff;
+}
+
+button:hover {
+    filter: brightness(85%);
+}
